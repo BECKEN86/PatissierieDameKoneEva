@@ -1,0 +1,99 @@
+
+body{
+	
+}
+h1{
+	font-family:Arial,sans-serif;
+	text-align: center;
+	font-size: 50px;
+	font-style:normal; 
+    margin:AUTO;
+    color: white;
+    padding-top:12px;
+}
+div{
+    text-align: center;
+    background-color: blueviolet;
+}
+.menu {
+    text-align: center;
+     display: flex;              /* Transformation en flexbox */
+    padding:0;                  /* Suppression des marges internes */
+    background-color: #ccc;     /* Ajout de la couleur d'arrière-plan */
+    justify-content: center;    /* Alignements des liens dans le menu */
+
+}
+.menu li {
+    list-style-type: none ;       /* Suppression des puces */
+    margin-left:4rem;
+    margin-right:4rem;
+    }
+.menu a {
+    display:block;                /* Transformation en block */
+    min-width: 120px;             /* Largeur minimale des liens */   
+    
+    margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+    padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+    text-align: center;           /* Centrage du texte */   
+    background-color: #1ABC9C;    /* Couleur d'arrière-plan */
+    color: #fff;                  /* Couleur du texte */
+    text-decoration: none;        /* Suppression du soulignement */
+    border: 1px solid #fff;       /* Ajout d'une bordure */
+    border-radius: 4px;           /* Arrondis des bordures */
+}
+
+.Contenu{
+    background-color:skyblue;
+    margin-top:-1.2em;
+    height: 1000px;
+    width: auto;
+    justify-content: center;    /* Alignements des liens dans le menu */
+
+}
+
+#id1{
+    background-color:yellow;
+    height: 450px;
+    width:450px ;
+    float: left;
+    border-radius: 4px;   
+    margin-left: 1em; 
+    margin-top: 1em; 
+
+}
+#id2{
+    background-color:yellow;
+    height: 450px;
+    width:450px ;
+    float: left;
+    border-radius: 4px; 
+    margin-left: 1em;
+    margin-top: 1em;    
+}
+#id3{
+    background-color:yellow;
+    height: 450px;
+    width:450px ;
+     float: left;
+     border-radius: 4px;  
+     margin-left: 1em;
+     margin-top: 1em;   
+}
+#id4{
+    background-color:yellow;
+    height: 450px;
+    width:450px ;
+     float: left;
+     border-radius: 4px;
+     margin-left: 1em;  
+     margin-top: 1em;   
+}
+#id5{
+    background-color:yellow;
+    height: 450px;
+    width:450px;
+    float: left;
+    border-radius: 4px;  
+    margin-left: 1em; 
+    margin-top: 1em; 
+}
